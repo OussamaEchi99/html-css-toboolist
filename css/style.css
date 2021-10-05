@@ -52,18 +52,75 @@ main{
     border: 1px solid black;
     padding: 10px 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 #add-task{
+    color: white;
     background-color: #47adf1;
+    border: 1px solid #47adf1;
 }
 
 #add-section{
+    color: #d3d7db;
     background-color: #ffffff;
+    border: 1px solid #d3d7db;
 }
 
 /* Section 1 */
-li{
-    list-style-type: none;
+ul a{
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: none;
 }
 
+.primo{
+    margin-top: 8px;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.v{
+    color: #6dc4ae;
+    border: 1px solid #6dc4ae;
+    border-radius: 50%;
+    padding: 3px 5px 3px 5px;
+    font-size: 10px;
+}
+
+.croce{
+    color: #ed6158;
+    border: 1px solid #ed6158;
+    border-radius: 50%;
+    padding: 3px 5px 3px 5px;
+    font-size: 10px;
+}
+
+.azzuro{
+    background-color: #45abea;
+}
+
+.viola{
+    background-color: #9c72e4;
+}
+
+.acqua{
+    background-color: #64c0a9;
+}
+
+.arancione{
+    background-color: #f29e33;
+}
+
+.rosa{
+    background-color: #d863a1;
+}
+
+.verde{
+    background-color: #b0c926;
+}
